@@ -44,7 +44,7 @@ x=1, y=2.
 - Chọn Start, các Robot bắt đầu di chuyển theo quy tắc bước di chuyển ở trên. 
 ![img_1.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_1.png)
 - Chọn Next Step, các Robot tiếp tục di chuyển sao cho chúng về được vị trí bắt đầu của từng riêng con. 
-![img_2.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/mg_2.png)
+![img_2.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_2.png)
 ![img_3.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_3.png)
 3. Kết thúc quá trình chạy
 - Các Robot sau khi về vị trí bắt đầu của từng riêng con sẽ kiểm tra tại ví trí đó không còn hướng di chuyển nào khả
