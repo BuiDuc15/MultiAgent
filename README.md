@@ -42,16 +42,16 @@ x=1, y=2.
 ![img.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img.png)
 2. Bước chạy
 - Chọn Start, các Robot bắt đầu di chuyển theo quy tắc bước di chuyển ở trên. 
-![img_1.png](img_1.png)
+![img_1.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_1.png)
 - Chọn Next Step, các Robot tiếp tục di chuyển sao cho chúng về được vị trí bắt đầu của từng riêng con. 
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
+![img_2.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/mg_2.png)
+![img_3.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_3.png)
 3. Kết thúc quá trình chạy
 - Các Robot sau khi về vị trí bắt đầu của từng riêng con sẽ kiểm tra tại ví trí đó không còn hướng di chuyển nào khả
 thi thì quá trình quét dọn kết thúc. Tại lúc đó tất cả các ô trong phòng đều được các tác tử đi qua hết.
-![img_4.png](img_4.png)
+![img_4.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_4.png)
 - Chương trih báo quét dọn thành công.
-![img_5.png](img_5.png)
+![img_5.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_5.png)
 
 ## Các vấn đề gặp phải và giải pháp
 1. Các Robot liệu trong quá trình di chuyển liệu đâm vào nhau.
