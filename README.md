@@ -31,7 +31,7 @@ phần tử square gồm trạng thái của ô đó.
 
 ## Các giao diện
 ### Ví dụ
-1. Bước khởi tạo
+1. **Bước khởi tạo**
 - Khởi tạo bản đồ với ma trận có kích thước 8x7 <=> Chiều ngang phòng là 7 chiều sâu là 8.
 - Số lượng tường xuất hiện. Mỗi tường được khởi tạo từ vị trí gốc của tường và các chiều dài, chiều rộng của tường.
 Vị trí gôc của tường được random 2 chiều x và y sao cho là không âm, nhỏ hơn chiều ngang và chiều sâu của bản đồ.
@@ -40,13 +40,13 @@ Chiều dài và chiều rộng tường được random trong 3 số (0,1,2).
 x=1, y=2.
 - Sau khi chọn Initilize. Bản đồ xuất hiện.
 ![img.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img.png)
-2. Bước chạy
+2. **Bước chạy**
 - Chọn Start, các Robot bắt đầu di chuyển theo quy tắc bước di chuyển ở trên. 
 ![img_1.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_1.png)
 - Chọn Next Step, các Robot tiếp tục di chuyển sao cho chúng về được vị trí bắt đầu của từng riêng con. 
 ![img_2.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_2.png)
 ![img_3.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_3.png)
-3. Kết thúc quá trình chạy
+3. **Kết thúc quá trình chạy**
 - Các Robot sau khi về vị trí bắt đầu của từng riêng con sẽ kiểm tra tại ví trí đó không còn hướng di chuyển nào khả
 thi thì quá trình quét dọn kết thúc. Tại lúc đó tất cả các ô trong phòng đều được các tác tử đi qua hết.
 ![img_4.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img_4.png)
