@@ -1,0 +1,1168 @@
+makeMap here
+Wall{ posX=5, posY=5, dX=2, dY=2}
+Wall{ posX=0, posY=3, dX=2, dY=1}
+Wall{ posX=4, posY=1, dX=2, dY=0}
+Wall{ posX=3, posY=2, dX=2, dY=1}
+
+check up false
+Check up true
+1: Go Up. Index= 1
+ 
+check up false
+continue go up
+2: Go Up. Index= 2
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+In vi tri Object{posX=2, posY=0}
+ 
+checkNewStep
+check right false
+check down false
+check left false
+Check left true
+3: Turn Left. Index= 3
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+In vi tri Object{posX=1, posY=0}
+ 
+check left false
+continue left
+4: Turn Left. Index= 4
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+In vi tri Object{posX=0, posY=0}
+ 
+checkNewStep
+check right false
+check down false
+Check down true
+5: Turn Down. Index= 5
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+In vi tri Object{posX=0, posY=1}
+ 
+check down false
+continue down
+6: Turn Down. Index= 6
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+In vi tri Object{posX=0, posY=2}
+ 
+check down false
+continue down
+7: Turn Down. Index= 7
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+In vi tri Object{posX=0, posY=3}
+ 
+check down false
+continue down
+8: Turn Down. Index= 8
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+In vi tri Object{posX=0, posY=4}
+ 
+check down false
+continue down
+9: Turn Down. Index= 9
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+In vi tri Object{posX=0, posY=5}
+ 
+check down false
+continue down
+10: Turn Down. Index= 10
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+In vi tri Object{posX=0, posY=6}
+ 
+check down false
+continue down
+11: Turn Down. Index= 11
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+In vi tri Object{posX=0, posY=7}
+ 
+checkNewStep
+check up false
+check right false
+Check right true
+12: Turn Right. Index= 12
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+In vi tri Object{posX=1, posY=7}
+ 
+check right false
+continue right
+13: Turn Right. Index= 13
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+In vi tri Object{posX=2, posY=7}
+ 
+check right false
+continue right
+14: Turn Right. Index= 14
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+In vi tri Object{posX=3, posY=7}
+ 
+check right false
+continue right
+15: Turn Right. Index= 15
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+In vi tri Object{posX=4, posY=7}
+ 
+check right false
+checkNewStep
+check up false
+Check up true
+16: Go Up. Index= 16
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+In vi tri Object{posX=4, posY=6}
+ 
+check up false
+continue go up
+17: Go Up. Index= 17
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+In vi tri Object{posX=4, posY=5}
+ 
+check up false
+continue go up
+18: Go Up. Index= 18
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+In vi tri Object{posX=4, posY=4}
+ 
+check up false
+continue go up
+19: Go Up. Index= 19
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+In vi tri Object{posX=4, posY=3}
+ 
+check up false
+checkNewStep
+check up false
+check right false
+Check right true
+20: Turn Right. Index= 20
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+In vi tri Object{posX=5, posY=3}
+ 
+check right false
+continue right
+21: Turn Right. Index= 21
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+In vi tri Object{posX=6, posY=3}
+ 
+check right false
+continue right
+22: Turn Right. Index= 22
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+In vi tri Object{posX=7, posY=3}
+ 
+checkNewStep
+check up false
+Check up true
+23: Go Up. Index= 23
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=2, index=23}
+In vi tri Object{posX=7, posY=2}
+ 
+check up false
+continue go up
+24: Go Up. Index= 24
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=2, index=23}
+24 BackTrack{x=7, y=1, index=24}
+In vi tri Object{posX=7, posY=1}
+ 
+check up false
+continue go up
+25: Go Up. Index= 25
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=2, index=23}
+24 BackTrack{x=7, y=1, index=24}
+25 BackTrack{x=7, y=0, index=25}
+In vi tri Object{posX=7, posY=0}
+ 
+checkNewStep
+check down false
+check left false
+Check left true
+26: Turn Left. Index= 26
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=2, index=23}
+24 BackTrack{x=7, y=1, index=24}
+25 BackTrack{x=7, y=0, index=25}
+26 BackTrack{x=6, y=0, index=26}
+In vi tri Object{posX=6, posY=0}
+ 
+check left false
+continue left
+27: Turn Left. Index= 27
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=2, index=23}
+24 BackTrack{x=7, y=1, index=24}
+25 BackTrack{x=7, y=0, index=25}
+26 BackTrack{x=6, y=0, index=26}
+27 BackTrack{x=5, y=0, index=27}
+In vi tri Object{posX=5, posY=0}
+ 
+check left false
+checkNewStep
+check right false
+check down false
+Check down true
+28: Turn Down. Index= 28
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=2, index=23}
+24 BackTrack{x=7, y=1, index=24}
+25 BackTrack{x=7, y=0, index=25}
+26 BackTrack{x=6, y=0, index=26}
+27 BackTrack{x=5, y=0, index=27}
+28 BackTrack{x=5, y=1, index=28}
+In vi tri Object{posX=5, posY=1}
+ 
+check down false
+continue down
+29: Turn Down. Index= 29
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=2, index=23}
+24 BackTrack{x=7, y=1, index=24}
+25 BackTrack{x=7, y=0, index=25}
+26 BackTrack{x=6, y=0, index=26}
+27 BackTrack{x=5, y=0, index=27}
+28 BackTrack{x=5, y=1, index=28}
+29 BackTrack{x=5, y=2, index=29}
+In vi tri Object{posX=5, posY=2}
+ 
+check down false
+checkNewStep
+check up false
+check right false
+Check right true
+30: Turn Right. Index= 30
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=2, index=23}
+24 BackTrack{x=7, y=1, index=24}
+25 BackTrack{x=7, y=0, index=25}
+26 BackTrack{x=6, y=0, index=26}
+27 BackTrack{x=5, y=0, index=27}
+28 BackTrack{x=5, y=1, index=28}
+29 BackTrack{x=5, y=2, index=29}
+30 BackTrack{x=6, y=2, index=30}
+In vi tri Object{posX=6, posY=2}
+ 
+check right false
+checkNewStep
+check up false
+Check up true
+31: Go Up. Index= 31
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=2, index=23}
+24 BackTrack{x=7, y=1, index=24}
+25 BackTrack{x=7, y=0, index=25}
+26 BackTrack{x=6, y=0, index=26}
+27 BackTrack{x=5, y=0, index=27}
+28 BackTrack{x=5, y=1, index=28}
+29 BackTrack{x=5, y=2, index=29}
+30 BackTrack{x=6, y=2, index=30}
+31 BackTrack{x=6, y=1, index=31}
+In vi tri Object{posX=6, posY=1}
+ 
+check up false
+checkNewStep
+check up false
+check right false
+check down false
+check left false
+Backtrack
+32:Turn Back. Index= 30
+6 2
+check up false
+check right false
+check down false
+check left false
+Backtrack
+33:Turn Back. Index= 29
+5 2
+check up false
+check right false
+check down false
+check left false
+Backtrack
+34:Turn Back. Index= 28
+5 1
+check up false
+check right false
+check down false
+check left false
+Backtrack
+35:Turn Back. Index= 27
+5 0
+check right false
+check down false
+check left false
+Backtrack
+36:Turn Back. Index= 26
+6 0
+check right false
+check down false
+check left false
+Backtrack
+37:Turn Back. Index= 25
+7 0
+check down false
+check left false
+Backtrack
+38:Turn Back. Index= 24
+7 1
+check up false
+check down false
+check left false
+Backtrack
+39:Turn Back. Index= 23
+7 2
+check up false
+check down false
+check left false
+Backtrack
+40:Turn Back. Index= 22
+7 3
+check up false
+check down false
+Check down true
+41: Turn Down. Index= 23
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=4, index=23}
+In vi tri Object{posX=7, posY=4}
+ 
+check down false
+checkNewStep
+check up false
+check down false
+check left false
+Check left true
+42: Turn Left. Index= 24
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=4, index=23}
+24 BackTrack{x=6, y=4, index=24}
+In vi tri Object{posX=6, posY=4}
+ 
+check left false
+continue left
+43: Turn Left. Index= 25
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=4, y=5, index=17}
+18 BackTrack{x=4, y=4, index=18}
+19 BackTrack{x=4, y=3, index=19}
+20 BackTrack{x=5, y=3, index=20}
+21 BackTrack{x=6, y=3, index=21}
+22 BackTrack{x=7, y=3, index=22}
+23 BackTrack{x=7, y=4, index=23}
+24 BackTrack{x=6, y=4, index=24}
+25 BackTrack{x=5, y=4, index=25}
+In vi tri Object{posX=5, posY=4}
+ 
+check left false
+checkNewStep
+check up false
+check right false
+check down false
+check left false
+Backtrack
+44:Turn Back. Index= 24
+6 4
+check up false
+check right false
+check down false
+check left false
+Backtrack
+45:Turn Back. Index= 23
+7 4
+check up false
+check down false
+check left false
+Backtrack
+46:Turn Back. Index= 22
+7 3
+check up false
+check down false
+check left false
+Backtrack
+47:Turn Back. Index= 21
+6 3
+check up false
+check right false
+check down false
+check left false
+Backtrack
+48:Turn Back. Index= 20
+5 3
+check up false
+check right false
+check down false
+check left false
+Backtrack
+49:Turn Back. Index= 19
+4 3
+check up false
+check right false
+check down false
+check left false
+Backtrack
+50:Turn Back. Index= 18
+4 4
+check up false
+check right false
+check down false
+check left false
+Backtrack
+51:Turn Back. Index= 17
+4 5
+check up false
+check right false
+check down false
+check left false
+Backtrack
+52:Turn Back. Index= 16
+4 6
+check up false
+check right false
+check down false
+check left false
+Check left true
+53: Turn Left. Index= 17
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=3, y=6, index=17}
+In vi tri Object{posX=3, posY=6}
+ 
+check left false
+continue left
+54: Turn Left. Index= 18
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=0, y=4, index=8}
+9 BackTrack{x=0, y=5, index=9}
+10 BackTrack{x=0, y=6, index=10}
+11 BackTrack{x=0, y=7, index=11}
+12 BackTrack{x=1, y=7, index=12}
+13 BackTrack{x=2, y=7, index=13}
+14 BackTrack{x=3, y=7, index=14}
+15 BackTrack{x=4, y=7, index=15}
+16 BackTrack{x=4, y=6, index=16}
+17 BackTrack{x=3, y=6, index=17}
+18 BackTrack{x=2, y=6, index=18}
+In vi tri Object{posX=2, posY=6}
+ 
+check left false
+checkNewStep
+check up false
+check right false
+check down false
+check left false
+Backtrack
+55:Turn Back. Index= 17
+3 6
+check up false
+check right false
+check down false
+check left false
+Backtrack
+56:Turn Back. Index= 16
+4 6
+check up false
+check right false
+check down false
+check left false
+Backtrack
+57:Turn Back. Index= 15
+4 7
+check up false
+check right false
+check left false
+Backtrack
+58:Turn Back. Index= 14
+3 7
+check up false
+check right false
+check left false
+Backtrack
+59:Turn Back. Index= 13
+2 7
+check up false
+check right false
+check left false
+Backtrack
+60:Turn Back. Index= 12
+1 7
+check up false
+check right false
+check left false
+Backtrack
+61:Turn Back. Index= 11
+0 7
+check up false
+check right false
+Backtrack
+62:Turn Back. Index= 10
+0 6
+check up false
+check right false
+check down false
+Backtrack
+63:Turn Back. Index= 9
+0 5
+check up false
+check right false
+check down false
+Backtrack
+64:Turn Back. Index= 8
+0 4
+check up false
+check right false
+check down false
+Backtrack
+65:Turn Back. Index= 7
+0 3
+check up false
+check right false
+Check right true
+66: Turn Right. Index= 8
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=1, y=3, index=8}
+In vi tri Object{posX=1, posY=3}
+ 
+check right false
+checkNewStep
+check up false
+Check up true
+67: Go Up. Index= 9
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=1, y=3, index=8}
+9 BackTrack{x=1, y=2, index=9}
+In vi tri Object{posX=1, posY=2}
+ 
+check up false
+continue go up
+68: Go Up. Index= 10
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=0, y=3, index=7}
+8 BackTrack{x=1, y=3, index=8}
+9 BackTrack{x=1, y=2, index=9}
+10 BackTrack{x=1, y=1, index=10}
+In vi tri Object{posX=1, posY=1}
+ 
+check up false
+checkNewStep
+check up false
+check right false
+check down false
+check left false
+Backtrack
+69:Turn Back. Index= 9
+1 2
+check up false
+check right false
+check down false
+check left false
+Backtrack
+70:Turn Back. Index= 8
+1 3
+check up false
+check right false
+check down false
+check left false
+Backtrack
+71:Turn Back. Index= 7
+0 3
+check up false
+check right false
+check down false
+Backtrack
+72:Turn Back. Index= 6
+0 2
+check up false
+check right false
+check down false
+Backtrack
+73:Turn Back. Index= 5
+0 1
+check up false
+check right false
+check down false
+Backtrack
+74:Turn Back. Index= 4
+0 0
+check right false
+check down false
+Backtrack
+75:Turn Back. Index= 3
+1 0
+check right false
+check down false
+check left false
+Backtrack
+76:Turn Back. Index= 2
+2 0
+check right false
+check down false
+check left false
+Backtrack
+77:Turn Back. Index= 1
+2 1
+check up false
+check right false
+check down false
+check left false
+Backtrack
+78:Turn Back. Index= 0
+2 2
+check up false
+check right false
+check down false
+check left false
+Backtrack
+In vi tri Object{posX=1, posY=1}
+ 
+Quét dọn thành công: 
+
+

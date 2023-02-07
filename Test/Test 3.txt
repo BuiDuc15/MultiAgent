@@ -1,0 +1,1330 @@
+makeMap here
+Wall{ posX=5, posY=3, dX=0, dY=0}
+Wall{ posX=3, posY=0, dX=0, dY=2}
+Wall{ posX=1, posY=5, dX=0, dY=0}
+Wall{ posX=4, posY=4, dX=2, dY=2}
+
+Check up true
+1: Go Up. Index= 1
+ 
+continue go up
+2: Go Up. Index= 2
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+ 
+check up false
+checkNewStep
+check up false
+Check right true
+3: Turn Right. Index= 3
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+ 
+continue right
+4: Turn Right. Index= 4
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+ 
+continue right
+5: Turn Right. Index= 5
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+ 
+continue right
+6: Turn Right. Index= 6
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+ 
+continue right
+7: Turn Right. Index= 7
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+ 
+check right false
+checkNewStep
+check up false
+check right false
+Check down true
+8: Turn Down. Index= 8
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+ 
+continue down
+9: Turn Down. Index= 9
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+ 
+continue down
+10: Turn Down. Index= 10
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+ 
+continue down
+11: Turn Down. Index= 11
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+ 
+continue down
+12: Turn Down. Index= 12
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+ 
+continue down
+13: Turn Down. Index= 13
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+ 
+continue down
+14: Turn Down. Index= 14
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+ 
+check down false
+checkNewStep
+check right false
+check down false
+Check left true
+15: Turn Left. Index= 15
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+ 
+continue left
+16: Turn Left. Index= 16
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+ 
+continue left
+17: Turn Left. Index= 17
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+ 
+continue left
+18: Turn Left. Index= 18
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+ 
+continue left
+19: Turn Left. Index= 19
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+ 
+continue left
+20: Turn Left. Index= 20
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+ 
+continue left
+21: Turn Left. Index= 21
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+ 
+check left false
+checkNewStep
+Check up true
+22: Go Up. Index= 22
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+ 
+continue go up
+23: Go Up. Index= 23
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+ 
+continue go up
+24: Go Up. Index= 24
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+ 
+checkNewStep
+Check right true
+25: Turn Right. Index= 25
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+ 
+continue right
+26: Turn Right. Index= 26
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+ 
+continue right
+27: Turn Right. Index= 27
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+ 
+checkNewStep
+Check up true
+28: Go Up. Index= 28
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+ 
+continue go up
+29: Go Up. Index= 29
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+ 
+continue go up
+30: Go Up. Index= 30
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+30 BackTrack{x=3, y=1, index=30}
+ 
+checkNewStep
+Check right true
+31: Turn Right. Index= 31
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+30 BackTrack{x=3, y=1, index=30}
+31 BackTrack{x=4, y=1, index=31}
+ 
+checkNewStep
+Check down true
+32: Turn Down. Index= 32
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+30 BackTrack{x=3, y=1, index=30}
+31 BackTrack{x=4, y=1, index=31}
+32 BackTrack{x=4, y=2, index=32}
+ 
+continue down
+33: Turn Down. Index= 33
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+30 BackTrack{x=3, y=1, index=30}
+31 BackTrack{x=4, y=1, index=31}
+32 BackTrack{x=4, y=2, index=32}
+33 BackTrack{x=4, y=3, index=33}
+ 
+checkNewStep
+Check right true
+34: Turn Right. Index= 34
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+30 BackTrack{x=3, y=1, index=30}
+31 BackTrack{x=4, y=1, index=31}
+32 BackTrack{x=4, y=2, index=32}
+33 BackTrack{x=4, y=3, index=33}
+34 BackTrack{x=5, y=3, index=34}
+ 
+continue right
+35: Turn Right. Index= 35
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+30 BackTrack{x=3, y=1, index=30}
+31 BackTrack{x=4, y=1, index=31}
+32 BackTrack{x=4, y=2, index=32}
+33 BackTrack{x=4, y=3, index=33}
+34 BackTrack{x=5, y=3, index=34}
+35 BackTrack{x=6, y=3, index=35}
+ 
+checkNewStep
+Check up true
+36: Go Up. Index= 36
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+30 BackTrack{x=3, y=1, index=30}
+31 BackTrack{x=4, y=1, index=31}
+32 BackTrack{x=4, y=2, index=32}
+33 BackTrack{x=4, y=3, index=33}
+34 BackTrack{x=5, y=3, index=34}
+35 BackTrack{x=6, y=3, index=35}
+36 BackTrack{x=6, y=2, index=36}
+ 
+continue go up
+37: Go Up. Index= 37
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+30 BackTrack{x=3, y=1, index=30}
+31 BackTrack{x=4, y=1, index=31}
+32 BackTrack{x=4, y=2, index=32}
+33 BackTrack{x=4, y=3, index=33}
+34 BackTrack{x=5, y=3, index=34}
+35 BackTrack{x=6, y=3, index=35}
+36 BackTrack{x=6, y=2, index=36}
+37 BackTrack{x=6, y=1, index=37}
+ 
+checkNewStep
+Backtrack
+38:Turn Back. Index= 36
+6 2
+Check left true
+39: Turn Left. Index= 37
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=3, y=4, index=27}
+28 BackTrack{x=3, y=3, index=28}
+29 BackTrack{x=3, y=2, index=29}
+30 BackTrack{x=3, y=1, index=30}
+31 BackTrack{x=4, y=1, index=31}
+32 BackTrack{x=4, y=2, index=32}
+33 BackTrack{x=4, y=3, index=33}
+34 BackTrack{x=5, y=3, index=34}
+35 BackTrack{x=6, y=3, index=35}
+36 BackTrack{x=6, y=2, index=36}
+37 BackTrack{x=5, y=2, index=37}
+ 
+checkNewStep
+Backtrack
+40:Turn Back. Index= 36
+6 2
+Backtrack
+41:Turn Back. Index= 35
+6 3
+Backtrack
+42:Turn Back. Index= 34
+5 3
+Backtrack
+43:Turn Back. Index= 33
+4 3
+Backtrack
+44:Turn Back. Index= 32
+4 2
+Backtrack
+45:Turn Back. Index= 31
+4 1
+Backtrack
+46:Turn Back. Index= 30
+3 1
+Backtrack
+47:Turn Back. Index= 29
+3 2
+Backtrack
+48:Turn Back. Index= 28
+3 3
+Backtrack
+49:Turn Back. Index= 27
+3 4
+Backtrack
+50:Turn Back. Index= 26
+2 4
+Check down true
+51: Turn Down. Index= 27
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=2, y=5, index=27}
+ 
+continue down
+52: Turn Down. Index= 28
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=2, y=5, index=27}
+28 BackTrack{x=2, y=6, index=28}
+ 
+checkNewStep
+Check right true
+53: Turn Right. Index= 29
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=2, y=5, index=27}
+28 BackTrack{x=2, y=6, index=28}
+29 BackTrack{x=3, y=6, index=29}
+ 
+checkNewStep
+Backtrack
+54:Turn Back. Index= 28
+2 6
+Check left true
+55: Turn Left. Index= 29
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=2, y=5, index=27}
+28 BackTrack{x=2, y=6, index=28}
+29 BackTrack{x=1, y=6, index=29}
+ 
+checkNewStep
+Check up true
+56: Go Up. Index= 30
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=3, y=0, index=3}
+4 BackTrack{x=4, y=0, index=4}
+5 BackTrack{x=5, y=0, index=5}
+6 BackTrack{x=6, y=0, index=6}
+7 BackTrack{x=7, y=0, index=7}
+8 BackTrack{x=7, y=1, index=8}
+9 BackTrack{x=7, y=2, index=9}
+10 BackTrack{x=7, y=3, index=10}
+11 BackTrack{x=7, y=4, index=11}
+12 BackTrack{x=7, y=5, index=12}
+13 BackTrack{x=7, y=6, index=13}
+14 BackTrack{x=7, y=7, index=14}
+15 BackTrack{x=6, y=7, index=15}
+16 BackTrack{x=5, y=7, index=16}
+17 BackTrack{x=4, y=7, index=17}
+18 BackTrack{x=3, y=7, index=18}
+19 BackTrack{x=2, y=7, index=19}
+20 BackTrack{x=1, y=7, index=20}
+21 BackTrack{x=0, y=7, index=21}
+22 BackTrack{x=0, y=6, index=22}
+23 BackTrack{x=0, y=5, index=23}
+24 BackTrack{x=0, y=4, index=24}
+25 BackTrack{x=1, y=4, index=25}
+26 BackTrack{x=2, y=4, index=26}
+27 BackTrack{x=2, y=5, index=27}
+28 BackTrack{x=2, y=6, index=28}
+29 BackTrack{x=1, y=6, index=29}
+30 BackTrack{x=1, y=5, index=30}
+ 
+checkNewStep
+Backtrack
+57:Turn Back. Index= 29
+1 6
+Backtrack
+58:Turn Back. Index= 28
+2 6
+Backtrack
+59:Turn Back. Index= 27
+2 5
+Backtrack
+60:Turn Back. Index= 26
+2 4
+Backtrack
+61:Turn Back. Index= 25
+1 4
+Backtrack
+62:Turn Back. Index= 24
+0 4
+check left false
+Backtrack
+63:Turn Back. Index= 23
+0 5
+check left false
+Backtrack
+64:Turn Back. Index= 22
+0 6
+check left false
+Backtrack
+65:Turn Back. Index= 21
+0 7
+check down false
+check left false
+Backtrack
+66:Turn Back. Index= 20
+1 7
+check down false
+Backtrack
+67:Turn Back. Index= 19
+2 7
+check down false
+Backtrack
+68:Turn Back. Index= 18
+3 7
+check down false
+Backtrack
+69:Turn Back. Index= 17
+4 7
+check down false
+Backtrack
+70:Turn Back. Index= 16
+5 7
+check down false
+Backtrack
+71:Turn Back. Index= 15
+6 7
+check down false
+Backtrack
+72:Turn Back. Index= 14
+7 7
+check right false
+check down false
+Backtrack
+73:Turn Back. Index= 13
+7 6
+check right false
+Backtrack
+74:Turn Back. Index= 12
+7 5
+check right false
+Backtrack
+75:Turn Back. Index= 11
+7 4
+check right false
+Backtrack
+76:Turn Back. Index= 10
+7 3
+check right false
+Backtrack
+77:Turn Back. Index= 9
+7 2
+check right false
+Backtrack
+78:Turn Back. Index= 8
+7 1
+check right false
+Backtrack
+79:Turn Back. Index= 7
+7 0
+check up false
+check right false
+Backtrack
+80:Turn Back. Index= 6
+6 0
+check up false
+Backtrack
+81:Turn Back. Index= 5
+5 0
+check up false
+Backtrack
+82:Turn Back. Index= 4
+4 0
+check up false
+Backtrack
+83:Turn Back. Index= 3
+3 0
+check up false
+Backtrack
+84:Turn Back. Index= 2
+2 0
+check up false
+Check left true
+85: Turn Left. Index= 3
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+ 
+continue left
+86: Turn Left. Index= 4
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+ 
+check left false
+checkNewStep
+check up false
+Check down true
+87: Turn Down. Index= 5
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+ 
+continue down
+88: Turn Down. Index= 6
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+ 
+checkNewStep
+Check right true
+89: Turn Right. Index= 7
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=1, y=2, index=7}
+ 
+checkNewStep
+Check up true
+90: Go Up. Index= 8
+0 BackTrack{x=2, y=2, index=0}
+1 BackTrack{x=2, y=1, index=1}
+2 BackTrack{x=2, y=0, index=2}
+3 BackTrack{x=1, y=0, index=3}
+4 BackTrack{x=0, y=0, index=4}
+5 BackTrack{x=0, y=1, index=5}
+6 BackTrack{x=0, y=2, index=6}
+7 BackTrack{x=1, y=2, index=7}
+8 BackTrack{x=1, y=1, index=8}
+ 
+checkNewStep
+Backtrack
+91:Turn Back. Index= 7
+1 2
+Backtrack
+92:Turn Back. Index= 6
+0 2
+check left false
+Backtrack
+93:Turn Back. Index= 5
+0 1
+check left false
+Backtrack
+94:Turn Back. Index= 4
+0 0
+check up false
+check left false
+Backtrack
+95:Turn Back. Index= 3
+1 0
+check up false
+Backtrack
+96:Turn Back. Index= 2
+2 0
+check up false
+Backtrack
+97:Turn Back. Index= 1
+2 1
+Backtrack
+98:Turn Back. Index= 0
+2 2
+Backtrack
+0 BackTrack{x=2, y=2, index=0}
+ 
+Quét dọn thành công: 
