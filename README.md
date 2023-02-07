@@ -39,7 +39,7 @@ Chiều dài và chiều rộng tường được random trong 3 số (0,1,2).
 - Vị trí bắt đầu của các robot. Bài toán ví dụ là vị trí của Robot 1 có tọa độ là x=3, y=3; Robot 2 có tọa độ là 
 x=1, y=2.
 - Sau khi chọn Initilize. Bản đồ xuất hiện.
-![img.png](img.png)
+![img.png](https://github.com/BuiDuc15/MultiAgent/blob/master/img/img.png)
 2. Bước chạy
 - Chọn Start, các Robot bắt đầu di chuyển theo quy tắc bước di chuyển ở trên. 
 ![img_1.png](img_1.png)
