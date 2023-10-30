@@ -65,3 +65,4 @@ biết được bước tiếp theo của nó liệu có thể đi được khô
 
 ## Định hướng phát triên
 - Nhóm tác giả sẽ nghiên cứu và phát triển cho các bước di chuyển tối ưu hơn trong các phiên bản tiếp theo.
+- http://localhost:62345/?code=_E0nm-WbAnClHB1osS_Mj4fvv81Yx0H3pysPWDQv_fM.xhNx-N0-CilLYI3GI-nNczguKeJyaQiF98lw7sH1poM&scope=openid+offline_access+r_ide_auth&state=1cde2646-b4a1-4c2d-9260-b6b0b4e8766d
